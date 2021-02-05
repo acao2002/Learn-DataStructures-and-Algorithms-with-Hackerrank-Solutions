@@ -1,11 +1,17 @@
 
 
 def arrayManipulation(n, queries):
-    array = [0]*n
+    array = [0]*(n + 1)
     for x in queries:
-        for i in range(x[0]-1, x[1]):
-            array[i]+= x[2]
-    return max(array)
+        array[x[0]-1] += x[2]
+        array[x[1]] -= x[2]
+
+    maxs = 0
+    sums = 0
+    for y in array:
+        sums += y
+        maxs = max(maxs,sums)
+    return maxs
 
 nm = input().split()
 
@@ -19,3 +25,4 @@ for _ in range(m):
         queries.append(list(map(int, input().rstrip().split())))
 
 result = arrayManipulation(n, queries)
+print(result)
