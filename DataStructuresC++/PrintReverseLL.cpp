@@ -35,27 +35,6 @@ class SinglyLinkedList {
         }
 };
 
-void print_singly_linked_list(SinglyLinkedListNode* node, string sep) {
-    while (node) {
-        cout << node->data;
-
-        node = node->next;
-
-        if (node) {
-            cout << sep;
-        }
-    }
-}
-
-void free_singly_linked_list(SinglyLinkedListNode* node) {
-    while (node) {
-        SinglyLinkedListNode* temp = node;
-        node = node->next;
-
-        free(temp);
-    }
-}
-
 // Complete the reversePrint function below.
 
 /*
@@ -74,4 +53,3 @@ void reversePrint(SinglyLinkedListNode* head) {
     }
 }
 
-int main()
