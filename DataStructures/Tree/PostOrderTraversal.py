@@ -42,7 +42,7 @@ self.info (the value of the node)
 """
 def postOrder(root):
     if root is not None:
-        preOrder(root.left)
-        preOrder(root.right)
+        postOrder(root.left)
+        postOrder(root.right)
         print(root.info, end = " ")
     #Write your code here
