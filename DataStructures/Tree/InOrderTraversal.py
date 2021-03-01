@@ -44,6 +44,6 @@ def inOrder(root):
     if root is not None:
         if root.left:
             inOrder(root.left)
-        print(root, end = " ")
+        print(root.data, end = " ")
         inOrder(root.right)
     
