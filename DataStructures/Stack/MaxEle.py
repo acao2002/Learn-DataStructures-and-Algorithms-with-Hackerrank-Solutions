@@ -3,11 +3,9 @@
 from queue import LifoQueue
  
 # Initializing a stack
-stack = LifoQueue()
-maxq = LifoQueue()
-maxele = 0
+
+maxq = []
 n = int(input())
-removed = []
 
 
 for i in range(n):
@@ -15,24 +13,14 @@ for i in range(n):
     ty = int(Intype[0])
     if  ty == 1:
         ele = int(Intype[1])
-        stack.put(ele)
-        if maxq.empty():
-            maxq.put(ele)
-            maxele = ele
+        if len(maxq) == 0:
+            maxq.append(ele)   
         else:
-            if ele >= maxele:
-                maxq.put(ele)
-                maxele = ele
+            maxq.append(max(ele, maxq[-1]))
                 
     if ty == 2:
-       
-        ele = stack.get()
-        removed.append(ele)
-        if maxele == ele:
-            maxele = maxq.get()
+        maxq.pop()
     
     if ty == 3:
-        result = maxq.get()
-        print(result)
-        maxq.put(result)
+        print(maxq[-1])
     
