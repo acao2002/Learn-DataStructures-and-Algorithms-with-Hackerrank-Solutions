@@ -14,4 +14,4 @@ def recDC(coinValueList,change,knownResults):
              knownResults[change] = minCoins
     return minCoins
 
- print(recDC([1,5,10,25],63,[0]*64))
+print(recDC([1,5,10,25],63,[0]*64))
