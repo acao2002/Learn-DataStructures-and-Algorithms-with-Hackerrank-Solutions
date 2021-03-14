@@ -2,6 +2,8 @@
 
 #!/bin/python3
 
+#concept : https://www.youtube.com/watch?v=L27_JpN6Z1Q
+
 import math
 import os
 import random
@@ -19,9 +21,13 @@ import sys
 
 def getWays(n, c, d):
     l = len(c)
+
+    #initialize the first row
     for i in range(n+1):
         if i % c[0] == 0:
             d[i][0] = 1
+    
+    #fill out the remaining rows
     for k in range(1, l):
         for t in range(n+1):
             d[t][k] = d[t][k-1]
@@ -41,10 +47,11 @@ if __name__ == '__main__':
 
     c = list(map(int, input().rstrip().split()))
 
-    # Print the number of ways of making change for 'n' units using coins having the values given by 'c'
+    # Create the 2d table/array
     d = [[0]*m for i in range(n+1)]
     for k in range(m):
         d[0][k] = 1
+
     
     ways = getWays(n, c, d)
 
