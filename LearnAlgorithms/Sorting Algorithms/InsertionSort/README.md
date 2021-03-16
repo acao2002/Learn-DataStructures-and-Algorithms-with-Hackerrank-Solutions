@@ -13,7 +13,7 @@ source: geeksforgeeks
 
 ## example 
 
-'''python
+```python
 
 def insertion_sort(l):
     for i in range(1, len(l)):
@@ -22,6 +22,7 @@ def insertion_sort(l):
             l[i]=l[i-1] 
             i=i-1
         l[i] = key
+```
 
 ## Time complexity 
 
