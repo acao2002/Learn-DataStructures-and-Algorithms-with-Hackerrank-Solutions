@@ -1,4 +1,5 @@
 #completed insertion sort optimized solution
+#time complexity: O(n) -> O(n^2)
 
 import math
 import os
