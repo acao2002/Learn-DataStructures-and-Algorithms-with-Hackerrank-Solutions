@@ -1,6 +1,6 @@
 # Quick Sort
 
-Insertion sort is a sorting algorithm that sorts an array by repeating the process of partitioning itself surrounding a pivot item
+Quick sort is a sorting algorithm that sorts an array by repeating the process of partitioning itself surrounding a pivot item
 
 ## Algorithm
 
