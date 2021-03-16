@@ -14,7 +14,7 @@ To sort an array of size n in ascending order:
 
 source: geeksforgeeks
 
-## example 
+## Example 
 
 ```python
 
@@ -22,9 +22,9 @@ def insertion_sort(l):
     for i in range(1, len(l)):
         key = l[i]
         while i>0 and key<l[i-1]:
-            l[i]=l[i-1] 
+            l[i]=l[i-1] #shift element to the right if < key 
             i=i-1
-        l[i] = key
+        l[i] = key #insert key at the end of loop
 ```
 
 ## Time complexity 
