@@ -7,17 +7,17 @@ import re
 import sys
 
 # Complete the insertionSort2 function below.
-def insertionSort2(n, l):
-    for i in range(1, n):
-        while i>0:
-            if l[i]<l[i-1]:
-                l[i-1],l[i]=l[i],l[i-1] #swap adjacent elements if not in order
+def insertion_sort(l):
+    for i in range(1, len(l)):
+        key = l[i]
+        while i>0 and key<l[i-1]:
+            l[i]=l[i-1] 
             i=i-1
-        print(*l,sep=" ")
+        l[i] = key
         
 if __name__ == '__main__':
     n = int(input())
 
     arr = list(map(int, input().rstrip().split()))
 
-    insertionSort2(n, arr)
+    insertion_sort(arr)
