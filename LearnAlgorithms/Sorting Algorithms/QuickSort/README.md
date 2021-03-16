@@ -8,7 +8,7 @@ The key process in quickSort is partition(). Target of partitions is, given an a
 
 source: geeksforgeeks
 
-## Implementation
+## Implementation(Python)
 
 ```python
 

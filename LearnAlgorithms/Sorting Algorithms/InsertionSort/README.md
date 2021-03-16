@@ -14,7 +14,9 @@ To sort an array of size n in ascending order:
 
 source: geeksforgeeks
 
-## Example 
+
+## Example(Python)
+
 
 ```python
 
