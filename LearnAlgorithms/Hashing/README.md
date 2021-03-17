@@ -41,15 +41,15 @@ One of the most useful Python collections is the dictionary. Recall that a dicti
 
 The map abstract data type is defined as follows. The structure is an unordered collection of associations between a key and a data value. The keys in a map are all unique so that there is a one-to-one relationship between a key and a value. The operations are given below.
 
-Map() Create a new, empty map. It returns an empty map collection.
+**Map()** Create a new, empty map. It returns an empty map collection.
 
-put(key,val) Add a new key-value pair to the map. If the key is already in the map then replace the old value with the new value.
+**put(key,val)** Add a new key-value pair to the map. If the key is already in the map then replace the old value with the new value.
 
-get(key) Given a key, return the value stored in the map or None otherwise.
+**get(key)** Given a key, return the value stored in the map or None otherwise.
 
-del Delete the key-value pair from the map using a statement of the form del map[key].
+**del** Delete the key-value pair from the map using a statement of the form del map[key].
 
-len() Return the number of key-value pairs stored in the map.
+**len()** Return the number of key-value pairs stored in the map.
 
 in Return True for a statement of the form key in map, if the given key is in the map, False otherwise.
 
