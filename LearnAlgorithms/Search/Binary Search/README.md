@@ -1,6 +1,6 @@
 # Binary Search
 
-Sequential Search is a method of comparing the item to the middle item of the list. Depending on this comparison(< or > or =), we repeat the process on the left or the right side of the list from the middle until the item is found(= case)
+Binary Search is a method of comparing the item to the middle item of the list. Depending on this comparison(< or > or =), we repeat the process on the left or the right side of the list from the middle until the item is found(= case)
 
 
 ## Implementation(Python)
