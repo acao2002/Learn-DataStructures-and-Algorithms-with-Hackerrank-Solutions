@@ -12,7 +12,6 @@ __3. Pointer to right child__
 
 # Why tree?
 
-Why Trees? 
 1. One reason to use trees might be because you want to store information that naturally forms a hierarchy. For example, the file system on a computer: 
 ```
 file system
@@ -35,3 +34,58 @@ Main applications of trees include:
 4. As a workflow for compositing digital images for visual effects. 
 5. Router algorithms 
 6. Form of a multi-stage decision-making (see business chess). 
+
+## Basic Tree implementation python
+
+```python
+
+# Python program to introduce Binary Tree
+ 
+# A class that represents an individual node in a
+# Binary Tree
+class Node:
+    def __init__(self,key):
+        self.left = None
+        self.right = None
+        self.val = key
+ 
+ 
+# create root
+root = Node(1)
+''' following is the tree after above statement
+        1
+      /   \
+     None  None'''
+ 
+root.left      = Node(2);
+root.right     = Node(3);
+   
+''' 2 and 3 become left and right children of 1
+           1
+         /   \
+        2      3
+     /    \    /  \
+   None None None None'''
+ 
+ 
+root.left.left  = Node(4);
+'''4 becomes left child of 2
+           1
+       /       \
+      2          3
+    /   \       /  \
+   4    None  None  None
+  /  \
+None None'''
+
+```
+
+## Important Concepts in Tree
+
+Please follow these [Hackerrank problems](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=trees&filters%5Bsubdomains%5D%5B%5D=balanced-trees) to learn important concepts such as Traversals, Inversion, Lowest Ancestor,etc.
+
+My solutions to these problems :
+
+[C++](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/Data%20Structures%20Problems(C%2B%2B)/Tree)
+
+[Python](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/Data%20Structures%20Problems(python)/Tree)
