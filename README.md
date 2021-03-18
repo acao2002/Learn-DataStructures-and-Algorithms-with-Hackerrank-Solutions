@@ -20,7 +20,7 @@ node1 --> node2 --> node3 --> node4 --> node 5 --> null
 ```
 - [LinkedList Introduction](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/Learn%20Data%20Structures/LinkedList)
 - [Hackerrank problems](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=linked-lists)
-- [Hackerrank solutions in Python]()
+- [Hackerrank solutions in Python](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/Data%20Structures%20Problems(python)/LinkedList)
 - [Hackerrank solutions in C++](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/Data%20Structures%20Problems(C%2B%2B))
 
 2. Tree
