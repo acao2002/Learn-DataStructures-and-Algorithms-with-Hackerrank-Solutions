@@ -47,7 +47,8 @@ A tree data structure can be defined recursively as a collection of nodes (start
 
 3. Stack and Queue 
 
-```                     stack                                                   queue
+```                     
+                                STACK                                                   QUEUE
                                 out                                                     out
                                  |                                                      |
                                  v                                                      v
@@ -73,11 +74,49 @@ In computing, a hash table (hash map) is a data structure that implements an ass
 - [Hashing and Hash functions](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/Learn%20Data%20Structures/HashTable)
 
 5. Array 
-
+```
+[0,1,2,3,4,5,5,6,6,7,7,4]
+```
 An array is a data structure, which can store a fixed-size collection of elements of the same data type. ... An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
 
 - [Hackerrank problems](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=arrays)
 - [Hackerrank solutions in Python](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/Data%20Structures%20Problems(python))
 
+6. Heap 
+- [Binary Heap](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/Learn%20Data%20Structures/Priority%20Queues)
+- [Hackerrank Problems](https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=heap)
+- [Solutions in Python](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/Data%20Structures%20Problems(python)/Heap)
+- [Solutions in c++](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/Data%20Structures%20Problems(C%2B%2B)/Heap)
+
+# Algorithms 
+
+1. Sorting algorithms 
+
+- [Insertion Sort](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/LearnAlgorithms/Sorting%20Algorithms/InsertionSort)
+- [Merge Sort](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/LearnAlgorithms/Sorting%20Algorithms/MergeSort)
+- [Quick Sort](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/LearnAlgorithms/Sorting%20Algorithms/QuickSort)
+- [Counting Sort](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/LearnAlgorithms/Sorting%20Algorithms/CountingSort)
+- [Hackerrank problems](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=arrays-and-sorting)
+- [python solutions](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/Algorithms%20Problems/Sorting)
+
+2. Hashing 
+
+- [Hashing and Hash functions](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/Learn%20Data%20Structures/HashTable)
+
+3. Search algorithms 
+
+- [Search algorithms](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/LearnAlgorithms/Search)
+
+4. Dynamic programming 
+
+- [Dynamic programming](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/LearnAlgorithms/DynamicProgramming)
+- [Hackerrank problems](https://www.hackerrank.com/domains/algorithms?filters%5Bsubdomains%5D%5B%5D=dynamic-programming)
+- [python solutions](https://github.com/acao2002/Learn-DataStructures-and-Algorithms-with-Hackerrank-Solutions/tree/main/Algorithms%20Problems/Dynamic%20Programming)
+
+5. Recursion 
+
+I did not do any Recursion specific problems since I have been writing a lot of recursive solutions for **linked lists** and **trees**
+
+Will include here later !!
 
 
