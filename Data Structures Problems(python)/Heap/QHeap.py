@@ -3,7 +3,9 @@ class BinHeap:
         self.heapList = [0]
         self.currentSize = 0
 
-
+    def getMin(self):
+        return self.heapList[1]
+    
     def percUp(self,i):
         while i // 2 > 0:
           if self.heapList[i] < self.heapList[i // 2]:
@@ -59,7 +61,14 @@ class BinHeap:
           i = i - 1
 
 bh = BinHeap()
-bh.buildHeap([9,5,6,2,3,7,4,8,6])
-print(bh.heapList)
-bh.delitem(2)
-print(bh.heapList)
+
+for i in range(int(input())):
+    line = list(map(int, input().split(' ')))
+    operation = line[0]
+    
+    if operation == 1:
+        bh.insert(line[1])
+    elif operation == 2:
+        bh.delitem(line[1])
+    else:
+        print(bh.getMin())
